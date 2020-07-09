@@ -1,5 +1,11 @@
 import 'package:flutter/material.dart';
 
+// リスト一覧画面用Widget
+class TodoListPage extends StatefulWidget {
+  @override
+  _TodoListPageState createState() => _TodoListPageState();
+}
+
 class _TodoListPageState extends State<TodoListPage> {
   //Todoリストのデータ
   List<String> todoList = [];
@@ -39,12 +45,6 @@ class _TodoListPageState extends State<TodoListPage> {
       ),
     );
   }
-}
-
-// リスト一覧画面用Widget
-class TodoListPage extends StatefulWidget {
-  @override
-  _TodoListPageState createState() => _TodoListPageState();
 }
 
 class TodoAddPage extends StatefulWidget {
